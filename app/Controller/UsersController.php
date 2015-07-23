@@ -1,5 +1,6 @@
 <?php
 class UsersController extends AppController {
+	
 	public function top() {
 	}
 
@@ -7,6 +8,12 @@ class UsersController extends AppController {
 	}
 
 	public function login() {
+	}
+
+	public function main(){
+	}
+	
+	public function logout() {
 	}
 
 }
