@@ -31,6 +31,7 @@ class User extends AppModel {
                 'rule' => array('notEmpty'),
                 'message' => 'パスワードは必須です。'
             )
-        );
+        )
+    );
 }
 ?>

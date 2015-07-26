@@ -1,15 +1,16 @@
 <?php
 class UsersController extends AppController {
+	public $facebook;
+	public $helpers = array('Html', 'Form','Session');
 
 	public $components = array('Session', 'Auth');
 
 	public function beforeFilter(){
     parent::beforeFilter();
 	
-	$this->Auth->allow('top','login','add');
+	$this->Auth->allow('login','add');
     }
 
-	
 	public function top() {
 	}
 
