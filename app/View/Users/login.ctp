@@ -6,7 +6,7 @@
         <p><?php echo $this->Html->link('会員登録がまだの方はこちら', array('controller' => 'users','action' => 'add')); ?></p>
         <?php 
         echo $this->Form->input('username');
-        echo $this->Form->input('email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;');
+        echo $this->Form->input('email');
         echo $this->Form->input('password');
     ?>
     </fieldset>
