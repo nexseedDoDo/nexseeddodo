@@ -10,5 +10,9 @@
         echo $this->Form->input('password');
     ?>
     </fieldset>
+</div>
+<div>
 <?php echo $this->Form->end(__('Login')); ?>
+<?php echo $this->Form->create('Fbconnect',array('controller' => 'fbconnects','action' => 'facebook')); ?>
+<?php echo $this->Form->end('submit'); ?>
 </div>

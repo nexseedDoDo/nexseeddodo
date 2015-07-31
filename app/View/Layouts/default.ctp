@@ -570,7 +570,7 @@
 
     <!-- Contact Form JavaScript -->
     <script src="/dodo/app/webroot/js/jqBootstrapValidation.js"></script>
-    <script src="/dodo/app/webroot/js/contact_me.js"></script>
+    <!--<script src="/dodo/app/webroot/js/contact_me.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script src="/dodo/app/webroot/js/agency.js"></script>

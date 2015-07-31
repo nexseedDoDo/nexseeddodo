@@ -1,6 +1,5 @@
 <?php
 class UsersController extends AppController {
-	public $facebook;
 	public $helpers = array('Html', 'Form','Session');
 
 	public $components = array('Session', 'Auth');
@@ -36,11 +35,14 @@ class UsersController extends AppController {
 	    	}
 	    }
 	}
+	    
+
 
 	public function main(){
-		$this->set('user', $this->Auth->user());
-		//ログイン後にリダイレクトされるアクション
+		$myFbData = $this->Session->read('mydata');
+		debug($myFbData);
 	}
+
 	
 	public function logout() {
 		$this->redirect($this->Auth->logout());

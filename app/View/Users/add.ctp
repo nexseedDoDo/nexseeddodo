@@ -3,9 +3,9 @@
     <fieldset>
         <legend><?php echo __('新規登録'); ?></legend>
         <?php
-        echo $this->Form->input('名前&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;');
-        echo $this->Form->input('メールアドレス');
-        echo $this->Form->input('パスワード&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;');
+        echo $this->Form->input('username');
+        echo $this->Form->input('email');
+        echo $this->Form->input('password');
         echo $this->Form->input('role', array(
             'options' => array('admin' => 'Admin', 'author' => 'Author')
         ));
