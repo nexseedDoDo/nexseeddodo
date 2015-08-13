@@ -14,6 +14,8 @@
     <!-- Bootstrap Core CSS -->
     <link href="/dodo/app/webroot/css/bootstrap.min.css" rel="stylesheet">
 
+    <link href="/dodo/app/webroot/css/dodo.ctp" rel="stylesheet">
+
     <!-- Custom CSS -->
     <link href="/dodo/app/webroot/css/agency.css" rel="stylesheet">
 
@@ -59,7 +61,7 @@
                         <a class="page-scroll" href="#portfolio">What's "DoDo" ?</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">"DoDo"の魅力</a>
+                        <a class="page-scroll" href="#about">DoDoる？</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#team">DoDo Member</a>
@@ -76,7 +78,7 @@
         <div class="container">
             <div class="intro-text">
                 <div class="intro-heading">ENJOY Cebu!!</div>
-                <a href="#services" class="page-scroll btn btn-xl">What's "DoDo"?</a>
+                <a href="#portfolio" class="page-scroll btn btn-xl">What's "DoDo"?</a>
             </div>
         </div>
     </header>
@@ -125,7 +127,9 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">What's "DoDo"?</h2>
-                    <h3 class="section-subheading text-muted">DoDoは、NEXSEEDに関わってるみんながセブをおもいっきり満喫してもらうサービスです</h3>
+                    <h3 class="section-subheading text-muted">DoDoは、NEXSEEDに関わってるみんながセブをおもいっきり満喫してもらうサービスです。<br>
+                    もちろんみなさんの目的は学習であることは百も承知です。ただせっかく人生の貴重な時間を使ってセブに来ているなら、一生モノの貴重な体験もしませんか？それを"DoDo"がちょっとでもお手伝いできれば幸いです。
+                    </h3>
                 </div>
             </div>
             <div class="row">
@@ -222,8 +226,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">"DoDo"の魅力</h2>
-                    <h3 class="section-subheading text-muted">もちろんみなさんの目的は学習であることは百も承知です。ただせっかく人生の貴重な時間を使ってセブに来ているなら、一生モノの貴重な体験もしませんか？それを"DoDo"がちょっとでもお手伝いできれば幸いです。</h3>
+                    <h2 class="section-heading">DoDoる？</h2>
+                    <h3 class="section-subheading text-muted">ログインしてさっそくDoDoっちゃいましょう！！</h3>
                 </div>
             </div>
             <div class="row">
@@ -321,7 +325,7 @@
                         <ul class="list-inline social-buttons">
                             <!-- <li><a href="#"><i class="fa fa-twitter"></i></a> -->
                             </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            <li><a href="https://www.facebook.com/yukiko.ohara.94?fref=ts"><i class="fa fa-facebook"></i></a>
                             </li>
                            <!--  <li><a href="#"><i class="fa fa-linkedin"></i></a>
                             </li> -->
@@ -332,11 +336,11 @@
                     <div class="team-member">
                         <img src="/dodo/app/webroot/img/team/en2.jpg" class="img-responsive img-circle" alt="">
                         <h4>En Yamamoto</h4>
-                        <p class="text-muted">セブ愛好家</p>
+                        <p class="text-muted"><i class="fa fa-heart"></i>Beer</p>
                         <ul class="list-inline social-buttons">
                             <!-- <li><a href="#"><i class="fa fa-twitter"></i></a> -->
                             </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            <li><a href="https://www.facebook.com/en.yamamoto.3"><i class="fa fa-facebook"></i></a>
                             </li>
                             <!-- <li><a href="#"><i class="fa fa-linkedin"></i></a>
                             </li> -->
@@ -351,7 +355,7 @@
                         <ul class="list-inline social-buttons">
                             <!-- <li><a href="#"><i class="fa fa-twitter"></i></a> -->
                             </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            <li><a href="https://www.facebook.com/anna.kawabata.731?fref=ts"><i class="fa fa-facebook"></i></a>
                             </li>
                             <!-- <li><a href="#"><i class="fa fa-linkedin"></i></a> -->
                             </li>
@@ -450,7 +454,7 @@
                     <ul class="list-inline social-buttons">
                         <!-- <li><a href="#"><i class="fa fa-twitter"></i></a> -->
                         <!-- </li> -->
-                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                        <li><a href="https://www.facebook.com/pages/DoDo/1703096336580876?fref=ts"><i class="fa fa-facebook"></i></a>
                         </li>
                         <!-- <li><a href="#"><i class="fa fa-linkedin"></i></a> -->
                         <!-- </li> -->

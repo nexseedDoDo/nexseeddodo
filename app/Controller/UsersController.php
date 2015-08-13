@@ -2,7 +2,7 @@
 class UsersController extends AppController {
 	public $helpers = array('Html', 'Form','Session');
 
-	public $components = array('Session', 'Auth');
+	// public $components = array('Session', 'Auth');
 
 	public function beforeFilter(){
     parent::beforeFilter();
@@ -28,8 +28,10 @@ class UsersController extends AppController {
 
 	public function login() {
 		if($this->request->is('post')) {
+			// debug($this->request->data);
+			// debug($this->Auth->login($this->request->data));
 	        if($this->Auth->login()){
-	           $this->redirect($this->Auth->redirect());
+	           $this->redirect($this->Auth->redirect(array('action'=>'main')));
 	        } else {
 	        $this->Session->setFlash('ログイン失敗');
 	    	}
@@ -40,7 +42,8 @@ class UsersController extends AppController {
 
 	public function main(){
 		$myFbData = $this->Session->read('mydata');
-		debug($myFbData);
+		// debug($myFbData);
+		// debug($this->Auth->user('id'));
 	}
 
 	

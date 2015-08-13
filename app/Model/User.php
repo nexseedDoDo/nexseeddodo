@@ -1,6 +1,6 @@
 <?php
 App::uses('AppModel', 'Model');
-App::uses('BlowfishPasswordHasher', 'Controller/Component/Auth');
+// App::uses('BlowfishPasswordHasher', 'Controller/Component/Auth');
 
 class User extends AppModel {
     public $useTable = 'users';
@@ -22,25 +22,25 @@ class User extends AppModel {
                 'message' => '名前は必須です。'
             )
         ),
-        'email' => array(
-            'required' => array(
-                'rule' => array('notEmpty'),
-                'message' => 'メールアドレスは必須です。'
-            )
-        ),
+        // 'email' => array(
+        //     'required' => array(
+        //         'rule' => array('notEmpty'),
+        //         'message' => 'メールアドレスは必須です。'
+        //     )
+        // ),
         'password' => array(
             'required' => array(
                 'rule' => array('notEmpty'),
                 'message' => 'パスワードは必須です。'
             )
-        ),
-        'role' => array(
-            'valid' => array(
-                'rule' => array('inList', array('admin', 'author')),
-                'message' => 'Please enter a valid role',
-                'allowEmpty' => false
-            )
         )
+        // 'role' => array(
+        //     'valid' => array(
+        //         'rule' => array('inList', array('admin', 'author')),
+        //         'message' => 'Please enter a valid role',
+        //         'allowEmpty' => false
+        //     )
+        // )
     );
 }
 ?>
