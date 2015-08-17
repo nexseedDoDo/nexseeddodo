@@ -56,7 +56,7 @@ class AppController extends Controller {
                 )
             ),
             'authorize' => array('Controller')
-            // 'authenticate' => array(
+            // // 'authenticate' => array(
             //                                 'Form' => array(
             //                                         'userModel' => 'Admins', // 「userModelに騙されて」
             //                                         'scope' => array('Admins.status' => 1),
@@ -75,8 +75,7 @@ class AppController extends Controller {
     );
 
     public function isAuthorized($user) {
-    // if (isset($user['role']) && $user['role'] === 'admin') {
-    //     return true;
+    // if (isset($user['role']) && $user['role'] === 'admi    //     return true;
     // }
 
     // デフォルトは拒否
@@ -84,6 +83,6 @@ class AppController extends Controller {
     }
 
     public function beforeFilter() {
-        $this->Auth->allow('main');
+        $this->Auth->allow();//('main')に戻す8/14
     }
 }
