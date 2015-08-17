@@ -593,7 +593,7 @@ if (!function_exists('__')) {
 
 if (!function_exists('__n')) {
 
-/**
+/*
  * Returns correct plural form of message identified by $singular and $plural for count $count.
  * Some languages have more than one form for plural messages dependent on the count.
  *

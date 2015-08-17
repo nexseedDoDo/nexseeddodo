@@ -84,6 +84,6 @@ class AppController extends Controller {
     }
 
     public function beforeFilter() {
-        $this->Auth->allow('main');
+        $this->Auth->allow('main'); //ここの()の中をからにするとURLをいじってどこでもリンクできるようになる
     }
 }
